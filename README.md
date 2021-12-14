@@ -2,6 +2,12 @@
 a simple bridge for taskwarrior to ubuntu subsystem on windows.
 
 ## installation 
+### a) activate subsystem and install taskwarrior
+1. install ubuntu:
+https://www.microsoft.com/store/productId/9NBLGGH4MSV6 follow its instructions in the description
+2. install taskwarrior: start the ubuntu app, run `sudo apt update && sudo apt install taskwarrior`
+3. test taskwarrior `task` and configure as you wish
+### b) install this repo
 ```
 npm i -g git+https://github.com/ttschnz/task.git#master
 ```
