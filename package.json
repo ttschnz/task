@@ -1,0 +1,30 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "a bridge to ubuntu task ",
+  "main": "./bin/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttschnz/task.git"
+  },
+  "keywords": [
+    "task",
+    "taskwarrior"
+  ],
+  "author": "ttschnz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttschnz/task/issues"
+  },
+  "homepage": "https://github.com/ttschnz/task#readme",
+  "dependencies": {
+    "node-cmd": "^5.0.0"
+  },
+  "bin": {
+    "task": "./bin/main.js"
+  }
+}

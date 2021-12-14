@@ -1,0 +1,1 @@
+console.log(require('node-cmd').runSync(`ubuntu run task ` + process.argv.splice(2, process.argv.length - 2).join(" ")).data);
